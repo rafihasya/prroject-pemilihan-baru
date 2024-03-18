@@ -1,0 +1,215 @@
+/* styling home page */
+/* navbar */
+/* untuk mengjilangkan pinggiran agar mepet */
+* {
+    padding: 0;
+    margin: 0;
+}
+/* untuk mengecilkan gambar logo */
+/* tambahkan padding agar tidak terlalu mepet ke kiri */
+div img {
+      width: 50px; 
+      padding-left: 10px; 
+}
+/* untuk membuatnya sejajar dengan logo dan agar dia ada space antara logo dengan link */
+nav {
+    /* padding: 10px; */
+    display: flex;
+    justify-content: space-between;
+    background-color: blueviolet;
+}
+/* agar list item segaris dan tidak ada titiknya serta ada jaraknya */
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    align-items: center;
+    padding-right: 10px; /* tambahkan padding agar tidak terlalu mepet ke kanan*/
+}
+/* untuk mengstyling tag a */
+nav ul li a {
+    text-decoration: none;
+    color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* untuk menambah style ke tag a jika di hover */
+nav ul li a:hover{
+    background-color: yellow;
+    transition: all;
+    transition-duration: 300ms;
+}
+
+
+
+/* akhir navbar */
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif; 
+}
+/* mengstyling section hero */
+/* tambahkan background pake image
+tambahkan propert background repeat agar gambar tidak berulang
+tambahkan  background-position agar ditengah
+tambahkan background-size agar full seperti cover */
+
+#hero {
+    width: 100%;
+    height: 100vh;
+    background-image: url(background\ Indonesia.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* untuk mengstyling tiap section */
+.section1 {
+    padding: 10px;
+    /* border: 1px solid; */
+    width: 40;
+    align-items: center;
+    font-size: 17px;
+    font-family: "Asar", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: aqua;
+}
+
+#chapter1 {
+    display: flex;
+    justify-content: center;
+    font-size:x-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.p1 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.p2 {
+    margin-bottom: 5px;
+}
+
+.section2 {
+    padding: 30px;
+    /* border: 1px solid; */
+    width: 40;
+    align-items: justify;
+    font-size: 17px;
+    font-family: "Asar", serif;
+    font-weight: 400;
+    font-style: normal;
+    background: url(vission\ and\ mission\ background.jpg) no-repeat center / cover;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+#chapter2 {
+    display: flex;
+    justify-content: center;
+}
+
+.section3 {
+    padding: 30px;
+    /* border: 1px solid; */
+    width: 40;
+    align-items: justify;
+    font-size: 17px;
+    font-family: "Asar", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: cadetblue;
+}
+
+fieldset {
+    padding: 20px;
+    background-color: #333;
+    color: blueviolet;
+}
+
+#pform {
+    color: red;
+    margin-bottom: 5px;
+}
+
+textarea {
+    margin-bottom: 20px;
+}
+
+.info h1 {
+    padding: 10px;
+}
+/* akhir styling home page */
+/* styling login page */
+.login {
+    border: 1px solid;
+    margin-top: 20px;
+}
+
+.login>h2 {
+    padding: 10px;
+    color: aqua;
+}
+/* akhir styling login page */
+/* styling voting */
+#hvoting {
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.pvoting{
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.pvoting1{
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.pictures {
+    display: flex;
+    justify-content: center;
+    width: 180;
+}
+
+#pvoting2 {
+    font-weight: bolder;
+}
+
+#pvoting3 {
+    font-weight: bolder;
+}
+/* akhir style voting */
+/* style register */
+.form {
+    border: 1px solid;
+    padding: 20px;
+}
+
+#full-name {
+    margin: 3px 5px 2px 5px;
+}
+/* akhir style register */
+/* style footer */
+.footer {
+    background-color: #5ba824;
+}
+
+#pfooter {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.image-footer {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
